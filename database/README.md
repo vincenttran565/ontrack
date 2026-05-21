@@ -11,10 +11,7 @@ This guide describes how to configure your **Neon PostgreSQL** database instance
 3. Name your project (e.g., `ontrack-db`).
 4. Select the PostgreSQL version (v15 or v16 recommended) and your preferred region.
 5. Click **Create Project**.
-6. Save your **Database Connection String** (it will look similar to this):
-   ```text
-postgresql://neondb_owner:npg_nqy84cBXuMKt@ep-long-hill-aqepi51g.c-8.us-east-1.aws.neon.tech/neondb?sslmode=require
-   ```
+6. Save your **Database Connection String**
 
 ---
 
