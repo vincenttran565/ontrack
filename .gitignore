@@ -1,1 +1,34 @@
+# Local environment variables (contains secrets)
+.env
+.env.local
+.env.*.local
 
+# Maven build artifacts
+**/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Node build artifacts (for frontend later)
+**/node_modules/
+**/dist/
+**/build/
+
+# IDE configurations
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
